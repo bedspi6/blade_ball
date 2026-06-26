@@ -1,0 +1,92 @@
+{
+    "trail": 
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "leather_boots",
+            "amount": 1,
+            "name": "Эффекты следов",
+            "lore": [
+                "<gray>Следы, которые оставляет игрок при движении."
+            ]
+        }
+    },
+    "dash":
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "feather",
+            "name": "Эффекты рывков",
+            "lore": [
+                "<gray>Эффекты рывков."
+            ]
+        }
+    },
+    "double_jump":
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "golden_boots",
+            "name": "Эффекты двойных прыжков",
+            "lore": [
+                "<gray>Эфекты двойных прыжков."
+            ]
+        }
+    },
+    "reflects":
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "bow",
+            "name":"Эффекты отражения мяча",
+            "lore": [
+                "<gray>Эффекты при блоке от мяча."
+            ]
+        }
+    },
+    "damage": 
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "pufferfish",
+            "name": "Эффекты урона",
+            "lore": [
+                "<gray>Эффекты урона."
+            ]
+        }
+    },
+    "kill": {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "skeleton_skull",
+            "name": "Эффекты Убийств",
+            "lore": [
+                "<gray>Эффекты убийств."
+            ]
+        }
+    },
+    "weapon_skin": 
+    {
+        "max_selected_items": 1,
+        "display_item": {
+            "type": "diamond_sword",
+            "amount": 1,
+            "name": "Скины оружия",
+            "lore": [
+                "<gray>Скины различных видов оружия, которые можно использовать в игре."
+            ]
+        }
+    },
+    "resource":
+    {
+        "max_selected_items": 0,
+        "display_item": {
+            "type": "raw_iron",
+            "amount": 1,
+            "name": "Ресурсы",
+            "lore": [
+                "<gray>Ресурсы."
+            ]
+        }
+    }
+}

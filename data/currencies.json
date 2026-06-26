@@ -1,0 +1,20 @@
+{
+    "silver": {
+        "icon": "iron_ingot",
+        "name": "Серебро",
+        "description": "",
+        "symbol": "◇",
+        "color": "#AAD3FF",
+        "variable": "{player}.silver",
+        "update_function": "update_silver"
+    },
+    "copper": {
+        "icon": "copper_ingot",
+        "name": "Медь",
+        "description": "",
+        "symbol": "◇",
+        "color": "#FFB87A",
+        "variable": "{player}.copper",
+        "update_function": "update_copper"
+    }
+}

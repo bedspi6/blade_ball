@@ -1,0 +1,161 @@
+{
+    "buy": {
+        "item": {
+            "type": "emerald",
+            "amount": 1,
+            "name": "<%var(color.green)>Купить предмет",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Левый клик] → Купить предмет",
+                "<%var(color.orange)>[Шифт + Левый клик] → Купить за всю валюту"
+            ]
+        }
+    },
+    "back": {
+        "item": {
+            "type": "arrow",
+            "amount": 1,
+            "name": "<grey>Назад",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Левый клик] → Вернуться назад",
+                "<%var(color.orange)>[Шифт + Левый клик] → Закрыть меню"
+            ]
+        }
+    },
+    "open": {
+        "item": {
+            "type": "chest",
+            "amount": 1,
+            "name": "<%var(color.light_orange)>Открыть",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Левый клик] → Открыть",
+                "<%var(color.orange)>[Шифт + Левый клик] → Открыть все"
+            ]
+        }
+    },
+    "content": {
+        "item": {
+            "type": "chiseled_bookshelf",
+            "amount": 1,
+            "name": "<%var(color.light_orange)>Содержимое",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Левый клик] → Посмотреть содержимое"
+            ]
+        }
+    },
+    "furnace_smelt": {
+        "item": {
+            "type": "furnace",
+            "amount": 1,
+            "name": "<%var(color.light_orange)>Плавить",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Добавить предмет для переплавки"
+            ]
+        }
+    },
+    "furnace_fuel_list": {
+        "item": {
+            "type": "coal",
+            "amount": 1,
+            "name": "<%var(color.light_orange)>Список топлива",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть список топлива"
+            ]
+        }
+    },
+    "daily_quests_info": {
+        "item": {
+            "type": "oak_hanging_sign",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Информация о ежедневных заданиях",
+            "lore":
+            [
+                ""
+            ]
+        }
+    },
+    "quests": {
+        "item": {
+            "type": "guster_banner_pattern",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Квесты",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть квесты"
+            ]
+        }
+    },
+    "all_items": {
+        "item": {
+            "type": "item_frame",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Все предметы",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть все предметы"
+            ]
+        }
+    },
+    "packs": {
+        "item": {
+            "type": "chest",
+            "model": "bundle",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Наборы",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть наборы"
+            ]
+        }
+    },
+    "inventory": {
+        "item": {
+            "type": "chest_minecart",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Инвентарь",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть инвентарь"
+            ]
+        }
+    },
+    "changelog": {
+        "item": {
+            "type": "book",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Изменения",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть изменения"
+            ]
+        }
+    },
+    "auction": {
+        "item": {
+            "type": "barrel",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Аукцион",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть аукцион"
+            ]
+        }
+    }
+}

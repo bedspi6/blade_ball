@@ -1,0 +1,16 @@
+{
+    "files": [
+        "items.json",
+        "changelog.json",
+        "currencies.json",
+        "melting_modifiers.json",
+        "melting.json",
+        "packs.json",
+        "pity_groups.json",
+        "quests.json",
+        "rarities.json",
+        "reward_templates.json",
+        "system_items.json",
+        "types.json"
+    ]
+}

@@ -1,0 +1,209 @@
+{
+  "trail_pack_copper": {
+    "meta": { "id": "trail_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "leather_boots",
+      "name": "<gradient:gold:yellow>Набор следов</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все следы,", "<gray>которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [
+      { "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["trail"] } },
+      { "type": "sound", "sound_id": "entity.player.levelup", "volume": 1.0, "pitch": 1.0 }
+    ]
+  },
+
+  "trail_pack_silver": {
+    "meta": { "id": "trail_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "iron_boots",
+      "name": "<gradient:gold:yellow>Набор следов</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все следы,", "<gray>которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [
+      { "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["trail"] }, "exclude": { "rarity": ["common"] } },
+      { "type": "sound", "sound_id": "entity.player.levelup", "volume": 1.0, "pitch": 1.0 }
+    ]
+  },
+
+  "weapon_pack_copper": {
+    "meta": { "id": "weapon_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "iron_sword",
+      "name": "<gradient:aqua:blue>Набор скинов для оружия</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все скины", "<gray>для оружия, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [
+      { "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["weapon_skin"] } },
+      { "type": "sound", "sound_id": "ui.button.click", "volume": 1.0, "pitch": 1.2 }
+    ]
+  },
+
+  "weapon_pack_silver": {
+    "meta": { "id": "weapon_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "iron_sword",
+      "name": "<gradient:aqua:blue>Набор скинов для оружия</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все скины", "<gray>для оружия, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [
+      { "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["weapon_skin"] }, "exclude": { "rarity": ["common"] } },
+      { "type": "sound", "sound_id": "ui.button.click", "volume": 1.0, "pitch": 1.2 }
+    ]
+  },
+
+  "dash_pack_copper": {
+    "meta": { "id": "dash_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "feather",
+      "name": "<gradient:aqua:white>Набор эффектов рывка</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты рывка, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["dash"] } }]
+  },
+
+  "dash_pack_silver": {
+    "meta": { "id": "dash_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "feather",
+      "name": "<gradient:aqua:white>Набор эффектов рывка</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты рывка, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["dash"] }, "exclude": { "rarity": ["common"] } }]
+  },
+
+  "double_jump_pack_copper": {
+    "meta": { "id": "double_jump_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "golden_boots",
+      "name": "<gradient:yellow:gold>Набор эффектов двойного прыжка</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты двойного прыжка, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["double_jump"] } }]
+  },
+
+  "double_jump_pack_silver": {
+    "meta": { "id": "double_jump_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "golden_boots",
+      "name": "<gradient:yellow:gold>Набор эффектов двойного прыжка</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты двойного прыжка, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["double_jump"] }, "exclude": { "rarity": ["common"] } }]
+  },
+
+  "reflect_pack_copper": {
+    "meta": { "id": "reflect_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "bow",
+      "name": "<gradient:green:aqua>Набор эффектов отражения</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты отражения мяча, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["reflects"] } }]
+  },
+
+  "reflect_pack_silver": {
+    "meta": { "id": "reflect_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "bow",
+      "name": "<gradient:green:aqua>Набор эффектов отражения</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты отражения мяча, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["reflects"] }, "exclude": { "rarity": ["common"] } }]
+  },
+
+  "damage_pack_copper": {
+    "meta": { "id": "damage_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "pufferfish",
+      "name": "<gradient:red:gold>Набор эффектов урона</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты урона, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["damage"] } }]
+  },
+
+  "damage_pack_silver": {
+    "meta": { "id": "damage_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "pufferfish",
+      "name": "<gradient:red:gold>Набор эффектов урона</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты урона, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["damage"] }, "exclude": { "rarity": ["common"] } }]
+  },
+
+  "kill_pack_copper": {
+    "meta": { "id": "kill_pack_copper", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "copper_pity_group"
+    },
+    "display_item": {
+      "type": "skeleton_skull",
+      "name": "<gradient:red:dark_red>Набор эффектов убийства</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты убийства, которые есть в игре."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["kill"] } }]
+  },
+
+  "kill_pack_silver": {
+    "meta": { "id": "kill_pack_silver", "category": "cosmetics" },
+    "pity_config": {
+      "group_id": "silver_pity_group"
+    },
+    "display_item": {
+      "type": "skeleton_skull",
+      "name": "<gradient:red:dark_red>Набор эффектов убийства</gradient>",
+      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты убийства, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
+    },
+    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
+    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["kill"] }, "exclude": { "rarity": ["common"] } }]
+  }
+}

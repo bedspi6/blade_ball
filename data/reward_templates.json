@@ -1,0 +1,38 @@
+{
+    "standard": {
+        "data": {
+            "recieve_type": "choice",
+            "content": 
+            [
+                {
+                    "type": "item",
+                    "item_id": "coal",
+                    "amount": 1
+                },
+                {
+                    "type": "currency",
+                    "currency_id": "silver",
+                    "amount": 25
+                }
+            ]
+        }
+    },
+    "standardX2": {
+        "data": {
+            "recieve_type": "choice",
+            "content": 
+            [
+                {
+                    "type": "item",
+                    "item_id": "coal",
+                    "amount": 2
+                },
+                {
+                    "type": "currency",
+                    "currency_id": "silver",
+                    "amount": 50
+                }
+            ]
+        }
+    }
+}

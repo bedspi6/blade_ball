@@ -1,0 +1,22 @@
+{
+	"copper_pity_group": {
+		"counters": {
+			"rare_pity": {
+				"max_pity": 8,
+				"force_rarity": "rare"
+			},
+			"epic_pity": {
+				"max_pity": 24,
+				"force_rarity": "epic"
+			}
+		}
+	},
+	"silver_pity_group": {
+		"counters": {
+			"epic_pity": {
+				"max_pity": 16,
+				"force_rarity": "epic"
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+    "common": {
+        "name": "Обычный",
+        "color": "#E5E7EB",
+        "weight": 1000,
+        "pity_name": "Обычного"
+    },
+    "uncommon": {
+        "name": "Необычный",
+        "color": "#4ADE80",
+        "weight": 500,
+        "pity_name": "Необычного"
+    },
+    "rare": {
+        "name": "Редкий",
+        "color": "#60A5FA",
+        "weight": 100,
+        "pity_name": "Редкого"
+    },
+    "epic": {
+        "name": "Эпический",
+        "color": "#C084FC",
+        "weight": 5,
+        "pity_name": "Эпического"
+    }
+}

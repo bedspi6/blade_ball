@@ -1,0 +1,181 @@
+{
+  "kill": {
+    "category": "combat",
+    "display_item": {
+      "type": "skull_pottery_sherd",
+      "name": "Убийство",
+      "lore": [
+        "<gray>Убейте игроков {value} раз."
+      ]
+    },
+    "objective": {
+      "increase_event": "kill"
+    },
+    "value": {
+      "pool": [
+        { "value": 3, "weight": 50 },
+        { "value": 6, "weight": 30 },
+        { "value": 9, "weight": 20 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standard"
+    }
+  },
+
+  "kill_streak": {
+    "category": "combat",
+    "display_item": {
+      "type": "skull_pottery_sherd",
+      "name": "Убийство подряд",
+      "lore": [
+        "<gray>Убейте игроков {value} раз подряд без смертей.",
+        "<gray>При смерти прогресс сбрасывается."
+      ]
+    },
+    "objective": {
+      "increase_event": "kill",
+      "reset_event": "death"
+    },
+    "value": {
+      "pool": [
+        { "value": 2, "weight": 50 },
+        { "value": 3, "weight": 30 },
+        { "value": 4, "weight": 20 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standardX2"
+    }
+  },
+
+  "reflect": {
+    "category": "ball",
+    "display_item": {
+      "type": "archer_pottery_sherd",
+      "name": "Отражение мяча",
+      "lore": [
+        "<gray>Отразите мяч {value} раз."
+      ]
+    },
+    "objective": {
+      "increase_event": "reflect"
+    },
+    "value": {
+      "pool": [
+        { "value": 15, "weight": 50 },
+        { "value": 30, "weight": 30 },
+        { "value": 45, "weight": 20 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standard"
+    }
+  },
+
+  "reflect_streak": {
+    "category": "ball",
+    "display_item": {
+      "type": "archer_pottery_sherd",
+      "name": "Отражение без урона",
+      "lore": [
+        "<gray>Отразите мяч {value} раз без получения урона.",
+        "<gray>При получении урона прогресс сбрасывается."
+      ]
+    },
+    "objective": {
+      "increase_event": "reflect",
+      "reset_event": "taken_damage"
+    },
+    "value": {
+      "pool": [
+        { "value": 10, "weight": 40 },
+        { "value": 20, "weight": 35 },
+        { "value": 30, "weight": 25 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standardX2"
+    }
+  },
+
+  "damage": {
+    "category": "combat",
+    "display_item": {
+      "type": "blade_pottery_sherd",
+      "name": "Нанесение урона",
+      "lore": [
+        "<gray>Нанесите урон мячом {value} раз."
+      ]
+    },
+    "objective": {
+      "increase_event": "dealt_damage"
+    },
+    "value": {
+      "pool": [
+        { "value": 9, "weight": 50 },
+        { "value": 18, "weight": 30 },
+        { "value": 27, "weight": 20 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standard"
+    }
+  },
+
+  "win": {
+    "category": "match",
+    "display_item": {
+      "type": "prize_pottery_sherd",
+      "name": "Победа",
+      "lore": [
+        "<gray>Победите в {value} матчах."
+      ]
+    },
+    "objective": {
+      "increase_event": "win"
+    },
+    "value": {
+      "pool": [
+        { "value": 1, "weight": 60 },
+        { "value": 2, "weight": 30 },
+        { "value": 3, "weight": 10 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standard"
+    }
+  },
+
+  "win_streak": {
+    "category": "match",
+    "display_item": {
+      "type": "prize_pottery_sherd",
+      "name": "Победа подряд",
+      "lore": [
+        "<gray>Победите в {value} матчах подряд."
+      ]
+    },
+    "objective": {
+      "increase_event": "win",
+      "reset_event": "lose"
+    },
+    "value": {
+      "pool": [
+        { "value": 2, "weight": 50 },
+        { "value": 3, "weight": 30 },
+        { "value": 4, "weight": 20 }
+      ]
+    },
+    "rewards": {
+      "type": "template",
+      "template_id": "standardX2"
+    }
+  }
+}

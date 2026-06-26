@@ -1,0 +1,16 @@
+{
+    "silver_ore_recipe": {
+        "input": {
+            "item_id": "silver_ore"
+        },
+        "output": {
+            "currency_id": "silver",
+            "amount": 1000
+        },
+        "max_parallel": 1,
+        "duration": "24h",
+        "modifiers": [
+            "coal"
+        ]
+    }
+}
