@@ -1,5 +1,5 @@
 {
-    "url": "https://raw.githubusercontent.com/bedspi6/blade_ball/refs/heads/main/data",
+    "url": "https://raw.githubusercontent.com/bedspi6/blade_ball/refs/heads/main/data/",
     "files": [
         "rarities.json",
         "types.json",
