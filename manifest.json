@@ -1,17 +1,17 @@
 {
     "url": "raw.githubusercontent.com/bedspi6/blade_ball/refs/heads/main/data",
     "files": [
-        "items.json",
-        "changelog.json",
+        "rarities.json",
+        "types.json",
         "currencies.json",
-        "melting_modifiers.json",
+        "items.json",
         "melting.json",
+        "melting_modifiers.json",
         "packs.json",
         "pity_groups.json",
         "quests.json",
-        "rarities.json",
         "reward_templates.json",
-        "system_items.json",
-        "types.json"
+        "changelog.json",
+        "system_items.json"
     ]
 }
