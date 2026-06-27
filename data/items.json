@@ -195,8 +195,8 @@
         "display_item": {
             "type": "heart_of_the_sea",
             "amount": 1,
-            "name": "<%var(color.light_gray)>Волна",
-            "lore": ["<gray>Волна."]
+            "name": "<%var(color.light_gray)>Всплеск",
+            "lore": ["<gray>Всплеск."]
         }
 	},
 	"kill_lighting": {
