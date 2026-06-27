@@ -113,7 +113,7 @@
         "rarity": "rare",
         "type": "dash",
         "display_item": {
-            "type": "echo_chard",
+            "type": "echo_shard",
             "amount": 1,
             "name": "<gradient:#55ffff:#55aaff>Ударь скалка</gradient>",
             "lore": ["<gray>Оставляет след скалка позади вас."]
