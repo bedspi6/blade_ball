@@ -145,17 +145,17 @@
         "display_item": {
             "type": "emerald",
             "amount": 1,
-            "name": "<gradient:#55ffff:#55aaff>Деньги</gradient>",
+            "name": "<gradient:#FFD54A:#FFD54A>Деньги</gradient>",
             "lore": ["<gray>Деньги."]
         }
 	},
 	"kill_lighting": {
 		"rarity": "common",
-        "type": "damage",
+        "type": "kill",
         "display_item": {
             "type": "fermented_spider_eye",
             "amount": 1,
-            "name": "<gradient:#55ffff:#55aaff>Молния</gradient>",
+            "name": "<gradient:#7DF9FF:#2979FF>Молния</gradient>",
             "lore": ["<gray>Молния."]
         }
 	},
