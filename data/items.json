@@ -189,6 +189,16 @@
             "lore": ["<gray>Перо."]
         }
 	},
+	"damage_wave": {
+		"rarity": "rare",
+        "type": "damage",
+        "display_item": {
+            "type": "heart_of_the_sea",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Волна",
+            "lore": ["<gray>Волна."]
+        }
+	},
 	"kill_lighting": {
 		"rarity": "common",
         "type": "kill",
@@ -197,16 +207,6 @@
             "amount": 1,
             "name": "<gradient:#7DF9FF:#2979FF>Молния</gradient>",
             "lore": ["<gray>Молния."]
-        }
-	},
-	"kill_feather": {
-		"rarity": "rare",
-        "type": "kill",
-        "display_item": {
-            "type": "feather",
-            "amount": 1,
-            "name": "<%var(color.light_gray)>Перо",
-            "lore": ["<gray>Перо."]
         }
 	},
     "stone_sword": {
