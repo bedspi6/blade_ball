@@ -199,6 +199,16 @@
             "lore": ["<gray>Молния."]
         }
 	},
+	"kill_feather": {
+		"rarity": "rare",
+        "type": "kill",
+        "display_item": {
+            "type": "feather",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Перо",
+            "lore": ["<gray>Перо."]
+        }
+	},
     "stone_sword": {
         "rarity": "common",
         "type": "weapon_skin",
