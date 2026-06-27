@@ -5,7 +5,7 @@
         "display_item": {
             "type": "leather_boots",
             "amount": 1,
-            "name": "Эффекты следов",
+            "name": "<%var(color.light_gray)>Эффекты следов",
             "lore": [
                 "<gray>Следы, которые оставляет игрок при движении."
             ]
@@ -16,7 +16,7 @@
         "max_selected_items": 1,
         "display_item": {
             "type": "feather",
-            "name": "Эффекты рывков",
+            "name": "<%var(color.light_gray)>Эффекты рывков",
             "lore": [
                 "<gray>Эффекты рывков."
             ]
@@ -27,7 +27,7 @@
         "max_selected_items": 1,
         "display_item": {
             "type": "golden_boots",
-            "name": "Эффекты двойных прыжков",
+            "name": "<%var(color.light_gray)>Эффекты двойных прыжков",
             "lore": [
                 "<gray>Эфекты двойных прыжков."
             ]
@@ -48,7 +48,7 @@
         "max_selected_items": 1,
         "display_item": {
             "type": "skeleton_skull",
-            "name": "Эффекты Убийств",
+            "name": "<%var(color.light_gray)>Эффекты убийств",
             "lore": [
                 "<gray>Эффекты убийств."
             ]
@@ -60,7 +60,7 @@
         "display_item": {
             "type": "diamond_sword",
             "amount": 1,
-            "name": "Скины оружия",
+            "name": "<%var(color.light_gray)>Скины оружия",
             "lore": [
                 "<gray>Скины различных видов оружия, которые можно использовать в игре."
             ]
@@ -72,7 +72,7 @@
         "display_item": {
             "type": "raw_iron",
             "amount": 1,
-            "name": "Ресурсы",
+            "name": "<%var(color.light_gray)>Ресурсы",
             "lore": [
                 "<gray>Ресурсы."
             ]
