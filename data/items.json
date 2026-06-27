@@ -175,8 +175,8 @@
         "display_item": {
             "type": "sunflower",
             "amount": 1,
-            "name": "<#FF9900>Подсолнух",
-            "lore": ["<gray>Подсолнух."]
+            "name": "<#FF9900>Золото",
+            "lore": ["<gray>Золото."]
         }
 	},
 	"damage_feather": {
@@ -185,7 +185,7 @@
         "display_item": {
             "type": "feather",
             "amount": 1,
-            "name": "<%var(color.light_color)>Перо",
+            "name": "<%var(color.light_gray)>Перо",
             "lore": ["<gray>Перо."]
         }
 	},
