@@ -9,6 +9,16 @@
             "lore": ["<gray>Оставляет след из блесток позади вас."]
         }
     },
+	"trail_wind": {
+		"rarity": "common",
+        "type": "trail",
+        "display_item": {
+            "type": "wind_charge",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffffff>След ветра</gradient>",
+            "lore": ["<gray>Ветер."]
+        }
+	},
     "trail_dust": {
         "rarity": "uncommon",
         "type": "trail",
@@ -30,7 +40,7 @@
         }
     },
 	"trail_sculk": {
-		"rarity": "uncommon",
+		"rarity": "rare",
         "type": "trail",
         "display_item": {
             "type": "sculk_vein",
@@ -65,17 +75,27 @@
         "display_item": {
             "type": "string",
             "amount": 1,
-            "name": "<gradient:#ffffff:#a0a0a0>След дыма</gradient>",
+            "name": "<gradient:#ffffff:#a0a0a0>Рывок дыма</gradient>",
             "lore": ["<gray>Оставляет след дыма позади вас."]
         }
     },
+	"dash_wind": {
+		"rarity": "common",
+        "type": "dash",
+        "display_item": {
+            "type": "wind_charge",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Рывок ветра</gradient>",
+            "lore": ["<gray>Ветер."]
+        }
+	},
     "dash_strike": {
         "rarity": "uncommon",
         "type": "dash",
         "display_item": {
             "type": "string",
             "amount": 1,
-            "name": "<gradient:#ffffff:#a0a0a0>След удара</gradient>",
+            "name": "<gradient:#ffffff:#a0a0a0>Рывок удара</gradient>",
             "lore": ["<gray>Оставляет след взмаха меча позади вас."]
         }
     },
@@ -93,7 +113,7 @@
         "rarity": "rare",
         "type": "dash",
         "display_item": {
-            "type": "sculk_sensor",
+            "type": "echo_chard",
             "amount": 1,
             "name": "<gradient:#55ffff:#55aaff>Ударь скалка</gradient>",
             "lore": ["<gray>Оставляет след скалка позади вас."]
@@ -109,6 +129,16 @@
             "lore": ["<gray>Оставляет след дыма позади вас."]
         }
     },
+	"jump_wind": {
+		"rarity": "common",
+        "type": "double_jump",
+        "display_item": {
+            "type": "wind_charge",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Прыжок ветра</gradient>",
+            "lore": ["<gray>Ветер."]
+        }
+	},
     "jump_explosion": {
         "rarity": "uncommon",
         "type": "double_jump",
@@ -140,20 +170,30 @@
         }
 	},
 	"damage_money": {
-		"rarity": "common",
+		"rarity": "uncommon",
         "type": "damage",
         "display_item": {
-            "type": "emerald",
+            "type": "sunflower",
             "amount": 1,
-            "name": "<gradient:#FFD54A:#FFD54A>Деньги</gradient>",
-            "lore": ["<gray>Деньги."]
+            "name": "<#FF9900>Подсолнух",
+            "lore": ["<gray>Подсолнух."]
+        }
+	},
+	"damage_feather": {
+		"rarity": "uncommon",
+        "type": "damage",
+        "display_item": {
+            "type": "feather",
+            "amount": 1,
+            "name": "<%var(color.light_color)>Перо",
+            "lore": ["<gray>Перо."]
         }
 	},
 	"kill_lighting": {
 		"rarity": "common",
         "type": "kill",
         "display_item": {
-            "type": "fermented_spider_eye",
+            "type": "golden_axe",
             "amount": 1,
             "name": "<gradient:#7DF9FF:#2979FF>Молния</gradient>",
             "lore": ["<gray>Молния."]
