@@ -123,34 +123,6 @@
     "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["double_jump"] }, "exclude": { "rarity": ["common"] } }]
   },
 
-  "reflect_pack_copper": {
-    "meta": { "id": "reflect_pack_copper", "category": "cosmetics" },
-    "pity_config": {
-      "group_id": "copper_pity_group"
-    },
-    "display_item": {
-      "type": "bow",
-      "name": "<gradient:green:aqua>Набор эффектов отражения</gradient>",
-      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты отражения мяча, которые есть в игре."]
-    },
-    "requirements": [{ "type": "currency", "currency_id": "copper", "value": 300, "consume": true }],
-    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["reflects"] } }]
-  },
-
-  "reflect_pack_silver": {
-    "meta": { "id": "reflect_pack_silver", "category": "cosmetics" },
-    "pity_config": {
-      "group_id": "silver_pity_group"
-    },
-    "display_item": {
-      "type": "bow",
-      "name": "<gradient:green:aqua>Набор эффектов отражения</gradient>",
-      "lore": ["<gray>Набор, содержащий в себе все", "<gray>эффекты отражения мяча, которые есть в игре.", "", "<gray>Без предметов обычной редкости."]
-    },
-    "requirements": [{ "type": "currency", "currency_id": "silver", "value": 150, "consume": true }],
-    "rewards": [{ "item_pool_reward_id": 0, "type": "item_pool", "distribution": "random", "amount": 1, "include": { "type": ["reflects"] }, "exclude": { "rarity": ["common"] } }]
-  },
-
   "damage_pack_copper": {
     "meta": { "id": "damage_pack_copper", "category": "cosmetics" },
     "pity_config": {

@@ -180,7 +180,7 @@
         }
 	},
 	"damage_feather": {
-		"rarity": "uncommon",
+		"rarity": "rare",
         "type": "damage",
         "display_item": {
             "type": "feather",

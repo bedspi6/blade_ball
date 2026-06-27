@@ -33,17 +33,6 @@
             ]
         }
     },
-    "reflects":
-    {
-        "max_selected_items": 1,
-        "display_item": {
-            "type": "bow",
-            "name":"Эффекты отражения мяча",
-            "lore": [
-                "<gray>Эффекты при блоке от мяча."
-            ]
-        }
-    },
     "damage": 
     {
         "max_selected_items": 1,
