@@ -1,384 +1,387 @@
 {
-	"trail_sparkle": {
-		"id": "trail_sparkle",
+    "trail_sparkle": {
+        "rarity": "common",
+        "type": "trail",
+        "display_item": {
+            "type": "glowstone_dust",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffffff>Сверкающий след</gradient>",
+            "lore": ["<gray>Оставляет след из блесток позади вас."]
+        }
+    },
+    "trail_dust": {
+        "rarity": "uncommon",
+        "type": "trail",
+        "display_item": {
+            "type": "sand",
+            "amount": 1,
+            "name": "<gradient:#e0a96d:#805a36>Пылевой след</gradient>",
+            "lore": ["<gray>Оставляет след из пыли позади вас."]
+        }
+    },
+    "trail_redstone": {
+        "rarity": "uncommon",
+        "type": "trail",
+        "display_item": {
+            "type": "redstone",
+            "amount": 1,
+            "name": "<gradient:#ff5555:#aa0000>Редстоуновый след</gradient>",
+            "lore": ["<gray>Оставляет след из редстоуна позади вас."]
+        }
+    },
+	"trail_sculk": {
+		"rarity": "uncommon",
+        "type": "trail",
+        "display_item": {
+            "type": "sculk_vein",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55ffee>Скалк след</gradient>",
+            "lore": ["<gray>Оставляет след из скалка позади вас."]
+        }
+	},
+    "trail_fire": {
+        "rarity": "rare",
+        "type": "trail",
+        "display_item": {
+            "type": "blaze_powder",
+            "amount": 1,
+            "name": "<gradient:#ff5555:#ffaa00>Огненный след</gradient>",
+            "lore": ["<gray>Оставляйте след из огня позади вас."]
+        }
+    },
+    "trail_ice": {
+        "rarity": "rare",
+        "type": "trail",
+        "display_item": {
+            "type": "packed_ice",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55ffee>Ледяной след</gradient>",
+            "lore": ["<gray>Оставляет след из льда позади вас."]
+        }
+    },
+    "dash_smoke": {
+        "rarity": "common",
+        "type": "dash",
+        "display_item": {
+            "type": "string",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>След дыма</gradient>",
+            "lore": ["<gray>Оставляет след дыма позади вас."]
+        }
+    },
+    "dash_strike": {
+        "rarity": "uncommon",
+        "type": "dash",
+        "display_item": {
+            "type": "string",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>След удара</gradient>",
+            "lore": ["<gray>Оставляет след взмаха меча позади вас."]
+        }
+    },
+    "dash_explosion": {
+        "rarity": "uncommon",
+        "type": "dash",
+        "display_item": {
+            "type": "tnt_minecart",
+            "amount": 1,
+            "name": "<gradient:#ff5555:#ffaa00>Взрывной рывок</gradient>",
+            "lore": ["<gray>Оставляет большой взрыв позади вас."]
+        }
+    },
+    "dash_sculk_strike": {
+        "rarity": "rare",
+        "type": "dash",
+        "display_item": {
+            "type": "sculk_sensor",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Ударь скалка</gradient>",
+            "lore": ["<gray>Оставляет след скалка позади вас."]
+        }
+    },
+    "jump_smoke": {
+        "rarity": "common",
+        "type": "double_jump",
+        "display_item": {
+            "type": "string",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Прыжок дыма</gradient>",
+            "lore": ["<gray>Оставляет след дыма позади вас."]
+        }
+    },
+    "jump_explosion": {
+        "rarity": "uncommon",
+        "type": "double_jump",
+        "display_item": {
+            "type": "tnt",
+            "amount": 1,
+            "name": "<gradient:#ff5555:#ffaa00>Взрывной прыжок</gradient>",
+            "lore": ["<gray>Оставляет взрыв позади вас."]
+        }
+    },
+    "jump_sculk": {
+        "rarity": "rare",
+        "type": "double_jump",
+        "display_item": {
+            "type": "sculk_shrieker",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Голоса скалка</gradient>",
+            "lore": ["<gray>Оставляет след скалка позади вас."]
+        }
+    },
+	"damage_blood": {
 		"rarity": "common",
-		"type": "trail",
-		"display_item": {
-			"type": "glowstone_dust",
-			"amount": 1,
-			"name": "<gradient:#ffee55:#ffffff>Сверкающий след</gradient>",
-			"lore": ["<gray>Оставляет след из блесток позади вас."]
-		}
+        "type": "damage",
+        "display_item": {
+            "type": "fermented_spider_eye",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Кровь</gradient>",
+            "lore": ["<gray>Кровь."]
+        }
 	},
-	"trail_dust": {
-		"id": "trail_dust",
-		"rarity": "uncommon",
-		"type": "trail",
-		"display_item": {
-			"type": "sand",
-			"amount": 1,
-			"name": "<gradient:#e0a96d:#805a36>Пылевой след</gradient>",
-			"lore": ["<gray>Оставляет след из пыли позади вас."]
-		}
-	},
-	"trail_redstone": {
-		"id": "trail_redstone",
-		"rarity": "uncommon",
-		"type": "trail",
-		"display_item": {
-			"type": "redstone",
-			"amount": 1,
-			"name": "<gradient:#ff5555:#aa0000>Редстоуновый след</gradient>",
-			"lore": ["<gray>Оставляет след из редстоуна позади вас."]
-		}
-	},
-	"trail_fire": {
-		"id": "trail_fire",
-		"rarity": "rare",
-		"type": "trail",
-		"display_item": {
-			"type": "blaze_powder",
-			"amount": 1,
-			"name": "<gradient:#ff5555:#ffaa00>Огненный след</gradient>",
-			"lore": ["<gray>Оставляйте след из огня позади вас."]
-		}
-	},
-	"trail_ice": {
-		"id": "trail_ice",
-		"rarity": "rare",
-		"type": "trail",
-		"display_item": {
-			"type": "packed_ice",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55ffee>Ледяной след</gradient>",
-			"lore": ["<gray>Оставляет след из льда позади вас."]
-		}
-	},
-	"dash_smoke": {
-		"id": "dash_smoke",
+	"damage_money": {
 		"rarity": "common",
-		"type": "dash",
-		"display_item": {
-			"type": "string",
-			"amount": 1,
-			"name": "<gradient:#ffffff:#a0a0a0>След дыма</gradient>",
-			"lore": ["<gray>Оставляет след дыма позади вас."]
-		}
+        "type": "damage",
+        "display_item": {
+            "type": "emerald",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Деньги</gradient>",
+            "lore": ["<gray>Деньги."]
+        }
 	},
-	"dash_strike": {
-		"id": "dash_strike",
-		"rarity": "uncommon",
-		"type": "dash",
-		"display_item": {
-			"type": "string",
-			"amount": 1,
-			"name": "<gradient:#ffffff:#a0a0a0>След удара</gradient>",
-			"lore": ["<gray>Оставляет след взмаха меча позади вас."]
-		}
-	},
-	"dash_explosion": {
-		"id": "dash_explosion",
-		"rarity": "uncommon",
-		"type": "dash",
-		"display_item": {
-			"type": "tnt_minecart",
-			"amount": 1,
-			"name": "<gradient:#ff5555:#ffaa00>Взрывной рывок</gradient>",
-			"lore": ["<gray>Оставляет большой взрыв позади вас."]
-		}
-	},
-	"dash_sculk_strike": {
-		"id": "sculk_strike",
-		"rarity": "rare",
-		"type": "dash",
-		"display_item": {
-			"type": "sculk_sensor",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Ударь скалка</gradient>",
-			"lore": ["<gray>Оставляет след скалка позади вас."]
-		}
-	},
-	"jump_smoke": {
-		"id": "jump_smoke",
+	"kill_lighting": {
 		"rarity": "common",
-		"type": "double_jump",
-		"display_item": {
-			"type": "string",
-			"amount": 1,
-			"name": "<gradient:#ffffff:#a0a0a0>Прыжок дыма</gradient>",
-			"lore": ["<gray>Оставляет след дыма позади вас."]
-		}
+        "type": "damage",
+        "display_item": {
+            "type": "fermented_spider_eye",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Молния</gradient>",
+            "lore": ["<gray>Молния."]
+        }
 	},
-	"jump_explosion": {
-		"id": "explosion_jump",
-		"rarity": "uncommon",
-		"type": "double_jump",
-		"display_item": {
-			"type": "tnt",
-			"amount": 1,
-			"name": "<gradient:#ff5555:#ffaa00>Взрывной прыжок</gradient>",
-			"lore": ["<gray>Оставляет взрыв позади вас."]
-		}
-	},
-	"jump_sculk": {
-		"id": "sculk_jump",
-		"rarity": "rare",
-		"type": "double_jump",
-		"display_item": {
-			"type": "sculk_shrieker",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Голоса скалка</gradient>",
-			"lore": ["<gray>Оставляет след скалка позади вас."]
-		}
-	},
-	"stone_sword": {
-		"id": "stone_sword",
-		"rarity": "common",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "stone_sword",
-		"amount": 1,
-		"name": "<gradient:#8c8c8c:#e0e0e0>Каменный меч</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"stone_axe": {
-		"id": "stone_axe",
-		"rarity": "common",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "stone_axe",
-		"amount": 1,
-		"name": "<gradient:#8c8c8c:#e0e0e0>Каменный топор</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"stone_pickaxe": {
-		"id": "stone_pickaxe",
-		"rarity": "common",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "stone_pickaxe",
-		"amount": 1,
-		"name": "<gradient:#8c8c8c:#e0e0e0>Каменная кирка</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"stone_shovel": {
-		"id": "stone_shovel",
-		"rarity": "common",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "stone_shovel",
-		"amount": 1,
-		"name": "<gradient:#8c8c8c:#e0e0e0>Каменная лопата</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"stone_hoe": {
-		"id": "stone_hoe",
-		"rarity": "common",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "stone_hoe",
-		"amount": 1,
-		"name": "<gradient:#8c8c8c:#e0e0e0>Каменная мотыга</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-
-	"iron_sword": {
-		"id": "iron_sword",
-		"rarity": "uncommon",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "iron_sword",
-		"amount": 1,
-		"name": "<gradient:#ffffff:#a0a0a0>Железный меч</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"iron_axe": {
-		"id": "iron_axe",
-		"rarity": "uncommon",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "iron_axe",
-		"amount": 1,
-		"name": "<gradient:#ffffff:#a0a0a0>Железный топор</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"iron_pickaxe": {
-		"id": "iron_pickaxe",
-		"rarity": "uncommon",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "iron_pickaxe",
-		"amount": 1,
-		"name": "<gradient:#ffffff:#a0a0a0>Железная кирка</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"iron_shovel": {
-		"id": "iron_shovel",
-		"rarity": "uncommon",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "iron_shovel",
-		"amount": 1,
-		"name": "<gradient:#ffffff:#a0a0a0>Железная лопата</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"iron_hoe": {
-		"id": "iron_hoe",
-		"rarity": "uncommon",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "iron_hoe",
-		"amount": 1,
-		"name": "<gradient:#ffffff:#a0a0a0>Железная мотыга</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-
-	"golden_sword": {
-		"id": "golden_sword",
-		"rarity": "rare",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "golden_sword",
-		"amount": 1,
-		"name": "<gradient:#ffee55:#ffaa00>Золотой меч</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"golden_axe": {
-		"id": "golden_axe",
-		"rarity": "rare",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "golden_axe",
-		"amount": 1,
-		"name": "<gradient:#ffee55:#ffaa00>Золотой топор</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"golden_pickaxe": {
-		"id": "golden_pickaxe",
-		"rarity": "rare",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "golden_pickaxe",
-		"amount": 1,
-		"name": "<gradient:#ffee55:#ffaa00>Золотая кирка</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"golden_shovel": {
-		"id": "golden_shovel",
-		"rarity": "rare",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "golden_shovel",
-		"amount": 1,
-		"name": "<gradient:#ffee55:#ffaa00>Золотая лопата</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"golden_hoe": {
-		"id": "golden_hoe",
-		"rarity": "rare",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "golden_hoe",
-		"amount": 1,
-		"name": "<gradient:#ffee55:#ffaa00>Золотая мотыга</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-
-	"diamond_sword": {
-		"id": "diamond_sword",
-		"rarity": "epic",
-		"type": "weapon_skin",
-		"display_item": {
-		"type": "diamond_sword",
-		"amount": 1,
-		"name": "<gradient:#55ffff:#55aaff>Алмазный меч</gradient>",
-		"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"diamond_axe": {
-		"id": "diamond_axe",
-		"rarity": "epic",
-		"type": "weapon_skin",
-		"display_item": {
-			"type": "diamond_axe",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Алмазный топор</gradient>",
-			"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"diamond_pickaxe": {
-		"id": "diamond_pickaxe",
-		"rarity": "epic",
-		"type": "weapon_skin",
-		"display_item": {
-			"type": "diamond_pickaxe",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Алмазная кирка</gradient>",
-			"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"diamond_shovel": {
-		"id": "diamond_shovel",
-		"rarity": "epic",
-		"type": "weapon_skin",
-		"display_item": {
-			"type": "diamond_shovel",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Алмазная лопата</gradient>",
-			"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"diamond_hoe": {
-		"id": "diamond_hoe",
-		"rarity": "epic",
-		"type": "weapon_skin",
-		"display_item": {
-			"type": "diamond_hoe",
-			"amount": 1,
-			"name": "<gradient:#55ffff:#55aaff>Алмазная мотыга</gradient>",
-			"lore": ["<gray>Скин для меча."]
-		}
-	},
-	"silver_ore": {
-		"id": "silver_ore",
-		"rarity": "epic",
-		"type": "resource",
-		"max_amount": 5,
-		"can_be_sold": false,
-		"can_be_processed": false,
-		"display_item": {
-			"type": "raw_iron",
-			"amount": 1,
-			"name": "<gradient:%var(currency_silver_color):#FFDEA5>Серебряная руда</gradient>",
-			"lore": ["<gray>Руда которую можно переплавить.</gray>"]
-		}
-	},
-	"coal": {
-		"id": "coal",
-		"rarity": "epic",
-		"type": "resource",
-		"can_be_sold": false,
-		"can_be_processed": false,
-		"display_item": {
-			"type": "coal",
-			"amount": 1,
-			"name": "<gradient:gray:#2A3C4C>Уголь</gradient>",
-			"lore": ["<gray>Уголь который можно использовать для ускорения переплавок."]
-		}
-	}
+    "stone_sword": {
+        "rarity": "common",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "stone_sword",
+            "amount": 1,
+            "name": "<gradient:#8c8c8c:#e0e0e0>Каменный меч</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "stone_axe": {
+        "rarity": "common",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "stone_axe",
+            "amount": 1,
+            "name": "<gradient:#8c8c8c:#e0e0e0>Каменный топор</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "stone_pickaxe": {
+        "rarity": "common",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "stone_pickaxe",
+            "amount": 1,
+            "name": "<gradient:#8c8c8c:#e0e0e0>Каменная кирка</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "stone_shovel": {
+        "rarity": "common",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "stone_shovel",
+            "amount": 1,
+            "name": "<gradient:#8c8c8c:#e0e0e0>Каменная лопата</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "stone_hoe": {
+        "rarity": "common",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "stone_hoe",
+            "amount": 1,
+            "name": "<gradient:#8c8c8c:#e0e0e0>Каменная мотыга</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "iron_sword": {
+        "rarity": "uncommon",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "iron_sword",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Железный меч</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "iron_axe": {
+        "rarity": "uncommon",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "iron_axe",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Железный топор</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "iron_pickaxe": {
+        "rarity": "uncommon",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "iron_pickaxe",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Железная кирка</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "iron_shovel": {
+        "rarity": "uncommon",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "iron_shovel",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Железная лопата</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "iron_hoe": {
+        "rarity": "uncommon",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "iron_hoe",
+            "amount": 1,
+            "name": "<gradient:#ffffff:#a0a0a0>Железная мотыга</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "golden_sword": {
+        "rarity": "rare",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "golden_sword",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffaa00>Золотой меч</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "golden_axe": {
+        "rarity": "rare",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "golden_axe",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffaa00>Золотой топор</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "golden_pickaxe": {
+        "rarity": "rare",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "golden_pickaxe",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffaa00>Золотая кирка</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "golden_shovel": {
+        "rarity": "rare",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "golden_shovel",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffaa00>Золотая лопата</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "golden_hoe": {
+        "rarity": "rare",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "golden_hoe",
+            "amount": 1,
+            "name": "<gradient:#ffee55:#ffaa00>Золотая мотыга</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "diamond_sword": {
+        "rarity": "epic",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "diamond_sword",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Алмазный меч</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "diamond_axe": {
+        "rarity": "epic",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "diamond_axe",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Алмазный топор</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "diamond_pickaxe": {
+        "rarity": "epic",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "diamond_pickaxe",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Алмажная кирка</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "diamond_shovel": {
+        "rarity": "epic",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "diamond_shovel",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Алмазная лопата</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "diamond_hoe": {
+        "rarity": "epic",
+        "type": "weapon_skin",
+        "display_item": {
+            "type": "diamond_hoe",
+            "amount": 1,
+            "name": "<gradient:#55ffff:#55aaff>Алмазная мотыга</gradient>",
+            "lore": ["<gray>Скин для меча."]
+        }
+    },
+    "silver_ore": {
+        "rarity": "epic",
+        "type": "resource",
+        "max_amount": 5,
+        "can_be_sold": false,
+        "can_be_processed": false,
+        "display_item": {
+            "type": "raw_iron",
+            "amount": 1,
+            "name": "<gradient:%var(currency_silver_color):#FFDEA5>Серебряная руда</gradient>",
+            "lore": ["<gray>Руда которую можно переплавить.</gray>"]
+        }
+    },
+    "coal": {
+        "rarity": "epic",
+        "type": "resource",
+        "can_be_sold": false,
+        "can_be_processed": false,
+        "display_item": {
+            "type": "coal",
+            "amount": 1,
+            "name": "<gradient:gray:#2A3C4C>Уголь</gradient>",
+            "lore": ["<gray>Уголь который можно использовать для ускорения переплавок."]
+        }
+    }
 }
