@@ -38,7 +38,7 @@
         "max_selected_items": 1,
         "display_item": {
             "type": "pufferfish",
-            "name": "Эффекты урона",
+            "name": "<%var(color.light_gray)>Эффекты урона",
             "lore": [
                 "<gray>Эффекты урона."
             ]
