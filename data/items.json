@@ -219,6 +219,16 @@
             "lore": ["<gray>Молния."]
         }
 	},
+    "kill_rocket": {
+        "rarity": "rare",
+        "type": "kill",
+        "display_item": {
+            "type": "firework_rocket",
+            "amount": 1,
+            "name": "<color:#93B2FF>Фейрверк</color>",
+            "lore": ["<gray>Фейрверк."]
+        }
+    },
     "stone_sword": {
         "rarity": "common",
         "type": "weapon_skin",
