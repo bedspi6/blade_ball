@@ -122,6 +122,22 @@
             ]
         }
     },
+    "rarities_info": {
+        "item": {
+            "type": "oak_sign",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Информация про редкости",
+            "lore":
+            [
+                "",
+                "<%var(color.light_gray)>Шансы редкостей:",
+                "<dark_gray> - <%entry(rarities.names, common)><dark_gray>: <%var(color.light_gray)>62.3%",
+                "<dark_gray> - <%entry(rarities.names, uncommon)><dark_gray>: <%var(color.light_gray)>31.15%",
+                "<dark_gray> - <%entry(rarities.names, rare)><dark_gray>: <%var(color.light_gray)>6.23%",
+                "<dark_gray> - <%entry(rarities.names, epic)><dark_gray>: <%var(color.light_gray)>0.31%"
+            ]
+        }
+    },
     "inventory": {
         "item": {
             "type": "chest_minecart",
