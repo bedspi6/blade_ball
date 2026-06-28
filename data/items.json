@@ -179,6 +179,16 @@
             "lore": ["<gray>Золото."]
         }
 	},
+    "damage_flesh": {
+        "rarity": "uncommon",
+        "type": "damage",
+        "display_item": {
+            "type": "rotten_flesh",
+            "amount": 1,
+            "name": "<#AA4444>Плоть",
+            "lore": ["<gray>Плоть."]
+        }
+    },
 	"damage_feather": {
 		"rarity": "rare",
         "type": "damage",
