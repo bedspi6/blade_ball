@@ -131,10 +131,10 @@
             [
                 "",
                 "<%var(color.light_gray)>Шансы редкостей:",
-                "<dark_gray> - <%entry(rarities.names, common)><dark_gray>: <%var(color.light_gray)>62.3%",
-                "<dark_gray> - <%entry(rarities.names, uncommon)><dark_gray>: <%var(color.light_gray)>31.15%",
-                "<dark_gray> - <%entry(rarities.names, rare)><dark_gray>: <%var(color.light_gray)>6.23%",
-                "<dark_gray> - <%entry(rarities.names, epic)><dark_gray>: <%var(color.light_gray)>0.31%"
+                "<dark_gray> - %entry(rarities.names, common)<dark_gray>: <%var(color.light_gray)>62.3%",
+                "<dark_gray> - %entry(rarities.names, uncommon)<dark_gray>: <%var(color.light_gray)>31.15%",
+                "<dark_gray> - %entry(rarities.names, rare)<dark_gray>: <%var(color.light_gray)>6.23%",
+                "<dark_gray> - %entry(rarities.names, epic)<dark_gray>: <%var(color.light_gray)>0.31%"
             ]
         }
     },
