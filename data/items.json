@@ -220,13 +220,23 @@
         }
 	},
     "kill_rocket": {
-        "rarity": "rare",
+        "rarity": "common",
         "type": "kill",
         "display_item": {
             "type": "firework_rocket",
             "amount": 1,
             "name": "<color:#93B2FF>Фейрверк</color>",
             "lore": ["<gray>Фейрверк."]
+        }
+    },
+    "kill_abyss": {
+        "rarity": "rare",
+        "type": "kill",
+        "display_item": {
+            "type": "ender_pearl",
+            "amount": 1,
+            "name": "<color:#A538FF>Бездна</color>",
+            "lore": ["<gray>Бездна."]
         }
     },
     "stone_sword": {
