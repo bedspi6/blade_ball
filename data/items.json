@@ -13,7 +13,7 @@
 		"rarity": "common",
         "type": "trail",
         "display_item": {
-            "type": "wind_charge",
+            "type": "iron_nugget",
             "amount": 1,
             "name": "<gradient:#ffee55:#ffffff>След ветра</gradient>",
             "lore": ["<gray>Ветер."]
@@ -83,7 +83,7 @@
 		"rarity": "common",
         "type": "dash",
         "display_item": {
-            "type": "wind_charge",
+            "type": "light_gray_dye",
             "amount": 1,
             "name": "<gradient:#ffffff:#a0a0a0>Рывок ветра</gradient>",
             "lore": ["<gray>Ветер."]
