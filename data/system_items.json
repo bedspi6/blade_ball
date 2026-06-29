@@ -173,5 +173,17 @@
                 "<%var(color.orange)>[Клик] → Посмотреть аукцион"
             ]
         }
+    },
+    "profile": {
+        "item": {
+            "type": "head",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Профиль",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть свой профиль"
+            ]
+        }
     }
 }
