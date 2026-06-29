@@ -169,9 +169,7 @@
             "name": "<%var(color.light_gray)>Аукцион",
             "lore":
             [
-                "<gray><i>Скоро...",
-                "",
-                "<%var(color.orange)>[Клик] → Посмотреть аукцион"
+                "<gray><i>Скоро..."
             ]
         }
     },
