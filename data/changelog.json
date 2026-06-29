@@ -1,7 +1,7 @@
 [
   {
     "version": "1.0",
-    "date": "27-06-2026",
+    "date": "30-06-2026",
     "type": "major",
     "changes": [
       { 
@@ -20,6 +20,10 @@
         "type": "added", 
         "description": "<gray>Инвентарь.</gray>" 
       },
+      {
+        "type": "added", 
+        "description": "<gray>Печь.</gray>" 
+      },
       { 
         "type": "added", 
         "description": "<gray>Ежедневные квесты.</gray>" 
@@ -31,6 +35,10 @@
       { 
         "type": "added", 
         "description": "<gray>Гарант.</gray>" 
+      },
+      { 
+        "type": "added", 
+        "description": "<gray>Профиль.</gray>" 
       }
     ]
   }
