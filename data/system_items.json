@@ -169,6 +169,7 @@
             "name": "<%var(color.light_gray)>Аукцион",
             "lore":
             [
+                "<gray><i>Скоро...",
                 "",
                 "<%var(color.orange)>[Клик] → Посмотреть аукцион"
             ]
@@ -183,6 +184,40 @@
             [
                 "",
                 "<%var(color.orange)>[Клик] → Посмотреть свой профиль"
+            ]
+        }
+    },
+    "info": {
+        "item": {
+            "type": "knowledge_book",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Информация",
+            "lore":
+            [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть информацию про мир"
+            ]
+        }
+    },
+    "credits": {
+        "item": {
+            "type": "pufferfish_bucket",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Контрибьюторы",
+            "lore": [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть тех кто помог миру"
+            ]
+        }
+    },
+    "guide": {
+        "item": {
+            "type": "writable_book",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Гайд",
+            "lore": [
+                "",
+                "<%var(color.orange)>[Клик] → Посмотреть гайд"
             ]
         }
     }
