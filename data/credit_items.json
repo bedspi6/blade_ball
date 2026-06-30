@@ -1,0 +1,59 @@
+{
+    "building": {
+        "display_item": {
+            "type": "bricks",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Строительство",
+            "lore": [
+                "",
+                "<gray>Строили город:",
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
+                ""
+            ]
+        },
+        "lore_arrays": {
+            "city": [
+                "Kribinal",
+                "david2012",
+                "_MrPlonish_"
+            ]
+        }
+    },
+    "particles": {
+        "display_item": {
+            "type": "blaze_powder",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Частицы",
+            "lore": [
+                "",
+                "<gray>Занимались частицами:",
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
+                ""
+            ]
+        },
+        "lore_arrays": {
+            "city": [
+                "Kribinal",
+                "Kukurdelik"
+            ]
+        }
+    },
+    "coding": {
+        "display_item": {
+            "type": "comparator",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Кодинг",
+            "lore": [
+                "",
+                "<gray>Занимались кодом:",
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
+                ""
+            ]
+        },
+        "lore_arrays": {
+            "city": [
+                "BeDsPi"
+            ]
+        }
+    }
+}

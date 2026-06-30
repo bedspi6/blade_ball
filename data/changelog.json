@@ -39,6 +39,18 @@
       { 
         "type": "added", 
         "description": "<gray>Профиль.</gray>" 
+      },
+      { 
+        "type": "added", 
+        "description": "<gray>Информация.</gray>" 
+      },
+      { 
+        "type": "added", 
+        "description": "<gray>Контрибьюторы.</gray>" 
+      },
+      { 
+        "type": "added", 
+        "description": "<gray>Гайд.</gray>" 
       }
     ]
   }
