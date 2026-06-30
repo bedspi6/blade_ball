@@ -7,8 +7,7 @@
             "lore": [
                 "",
                 "<gray>Строили город:",
-                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
-                ""
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}"
             ]
         },
         "lore_arrays": {
@@ -27,8 +26,7 @@
             "lore": [
                 "",
                 "<gray>Занимались частицами:",
-                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
-                ""
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}"
             ]
         },
         "lore_arrays": {
@@ -46,8 +44,7 @@
             "lore": [
                 "",
                 "<gray>Занимались кодом:",
-                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}",
-                ""
+                "$city$<dark_gray> - <%var(color.light_gray)> \\{element\\}"
             ]
         },
         "lore_arrays": {
