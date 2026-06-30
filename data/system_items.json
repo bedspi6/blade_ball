@@ -222,5 +222,16 @@
                 "<%var(color.orange)>[Клик] → Посмотреть гайд"
             ]
         }
+    },
+    "discord": {
+        "item": {
+            "type": "blue_dye",
+            "amount": 1,
+            "name": "<%var(color.light_gray)>Вступите в наш дискорд сервер!",
+            "lore": [
+                "",
+                "<%var(color.orange)>[Клик] → Открыть меню с ссылкой"
+            ]
+        }
     }
 }
