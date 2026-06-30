@@ -438,7 +438,7 @@
         "display_item": {
             "type": "raw_iron",
             "amount": 1,
-            "name": "<gradient:%var(currency_silver_color):#FFDEA5>Серебряная руда</gradient>",
+            "name": "<gradient:#AAD3FF:#FFDEA5>Серебряная руда</gradient>",
             "lore": ["<gray>Руда которую можно переплавить.</gray>"]
         }
     },

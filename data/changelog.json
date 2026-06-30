@@ -14,7 +14,7 @@
       },
       { 
         "type": "added", 
-        "description": "<gray>Меню все предметы.</gray>" 
+        "description": "<gray>Меню \"все предметы\".</gray>" 
       },
       { 
         "type": "added", 
@@ -42,15 +42,15 @@
       },
       { 
         "type": "added", 
-        "description": "<gray>Информация.</gray>" 
+        "description": "<gray>Меню \"Информация\".</gray>" 
       },
       { 
         "type": "added", 
-        "description": "<gray>Контрибьюторы.</gray>" 
+        "description": "<gray>Меню \"Контрибьюторы\".</gray>" 
       },
       { 
         "type": "added", 
-        "description": "<gray>Гайд.</gray>" 
+        "description": "<gray>Меню \"Гайд\".</gray>" 
       }
     ]
   }
