@@ -1,0 +1,192 @@
+{
+    "player_join": {
+        "embeds": [
+            {
+                "title": "Игрок зашел в мир!",
+                "description": "Игрок под ником **^player^**.", 
+                "color": 11534235,
+                "timestamp": "^time^",
+                "fields": [
+                    {
+                        "name": "Отображаемый никнейм:",
+                        "value": "^var(^player^.raw_nickname_text)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Всего игр:",
+                        "value": "^var_save(^player^.game_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Побед:",
+                        "value": "^var_save(^player^.win_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Убийств:",
+                        "value": "^var_save(^player^.kill_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Урона:",
+                        "value": "^var_save(^player^.dealt_damage_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Отражения:",
+                        "value": "^var_save(^player^.reflect_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Наиграное время:",
+                        "value": "^var(^player^.played_time_formatted)",
+                        "inline": true
+                    }
+                ],
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "player_quit": {
+        "embeds": [
+            {
+                "title": "Игрок вышел из мира!",
+                "description": "Игрок под ником **^player^**.",
+                "color": 16751515,
+                "timestamp": "^time^",
+                "fields": [
+                    {
+                        "name": "Отображаемый никнейм:",
+                        "value": "^var(^player^.raw_nickname_text)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Всего игр:",
+                        "value": "^var_save(^player^.game_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Побед:",
+                        "value": "^var_save(^player^.win_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Убийств:",
+                        "value": "^var_save(^player^.kill_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Урона:",
+                        "value": "^var_save(^player^.dealt_damage_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Отражения:",
+                        "value": "^var_save(^player^.reflect_count)",
+                        "inline": true
+                    },
+                    {
+                        "name": "Наиграное время:",
+                        "value": "^var(^player^.played_time_formatted)",
+                        "inline": true
+                    }
+                ],
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "player_message": {
+        "avatar_url": "^var(^player^.webhook.head_url)",
+        "username": "^var(^player^.raw_nickname_text)",
+        "content": "^val(event_chat_message)"
+    },
+    "player_died": {
+        "embeds": [
+            {
+                "title": "Игрок умер!",
+                "description": "Игрок под ником **^player^**.",
+                "color": 12320768,
+                "timestamp": "^time^",
+                "thumbnail": {
+                    "url": "^var(^player^.webhook.head_url)/left"
+                },
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "game_started": {
+        "embeds": [
+            {
+                "title": "Матч стартовал!",
+                "fields": [
+                    {
+                        "name": "Количество игроков:",
+                        "value": "^length(players_in_game)",
+                        "inline": true
+                    }
+                ],
+                "color": 14647295,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "game_ended": {
+        "embeds": [
+            {
+                "title": "Матч завершён!",
+                "fields": [
+                    {
+                        "name": "Победитель:",
+                        "value": "^var(last_game_winner)",
+                        "inline": true
+                    }
+                ],
+                "color": 14647295,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "world_launch": {
+        "embeds": [
+            {
+                "title": "Мир запущен!",
+                "description": "Данные загружены.",
+                "color": 8374271,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    },
+    "world_stop": {
+        "embeds": [
+            {
+                "title": "Мир остановлен!",
+                "color": 8374271,
+                "timestamp": "^time^",
+                "footer": {
+                    "text": "JustMC Blade Ball"
+                }
+            }
+        ]
+    }
+}

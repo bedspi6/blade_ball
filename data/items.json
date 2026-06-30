@@ -229,16 +229,6 @@
             "lore": ["<gray>Фейрверк."]
         }
     },
-    "kill_abyss": {
-        "rarity": "rare",
-        "type": "kill",
-        "display_item": {
-            "type": "ender_pearl",
-            "amount": 1,
-            "name": "<color:#A538FF>Бездна</color>",
-            "lore": ["<gray>Бездна."]
-        }
-    },
     "stone_sword": {
         "rarity": "common",
         "type": "weapon_skin",
